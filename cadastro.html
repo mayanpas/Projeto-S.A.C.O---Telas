@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <img src="img/minilogo.svg" alt="" />
+          <p>NOME DA CLINICA</p>
+        </div>
+
+        <form>
+          <input
+            type="text"
+            name="searchbar"
+            id="searchbar"
+            placeholder="Pesquisar..."
+          />
+        </form>
+
+        <button>
+          <img src="img/pessoa.svg" alt="" />
+          <a href="#">MAYAN.SILVEIRA</a>
+          <small>Admin</small>
+        </button>
+      </header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <img src="img/person.svg" alt="" />
+              <a href="#">Pacientes</a>
+            </li>
+            <li>
+              <img src="img/bookmark.svg" alt="" />
+              <a href="#">Consultas</a>
+            </li>
+            <li>
+              <img src="img/$.svg" alt="" />
+              <a href="#">Financeiro</a>
+            </li>
+            <li>
+              <img src="img/calendar.svg" alt="" />
+              <a href="#">Calendário</a>
+            </li>
+            <li>
+              <img src="img/whatsap.svg" alt="" />
+              <a href="#">WhatsApp</a>
+            </li>
+            <hr />
+            <li class="other">
+              <img src="img/config.svg" alt="" />
+              <a href="#">Configurações</a>
+            </li>
+          </ul>
+        </nav>
+
+        <main>
+          <div class="title-header">
+            <h1>Cadastro de usuário</h1>
+            <input type="submit" form="form" value="Salvar" />
+            <input type="reset" form="form" value="Cancelar" />
+          </div>
+
+          <h3>dados do usuário</h3>
+          <div class="content">
+            <div class="pessoa">
+              <figure>
+                <img src="img/pessoa.svg" alt="" />
+              </figure>
+              <input
+                type="file"
+                id="media-upload"
+                name="media"
+                accept="image/*,video/*"
+                hidden
+              />
+              <label for="media-upload" class="media-button"
+                >Adicionar foto</label
+              >
+            </div>
+            <form id="form" action="">
+              <div class="top-row">
+                <div class="name-group">
+                  <label for="nome">Nome e sobrenome:</label>
+                  <div class="name-row">
+                    <input
+                      type="text"
+                      name="nome"
+                      id="nome"
+                      placeholder="Insira o nome "
+                      class="block-2"
+                    />
+                    <input
+                      type="text"
+                      name="sobrenome"
+                      id="sobrenome"
+                      placeholder="Insira o sobrenome "
+                      class="block-2"
+                    />
+                  </div>
+                </div>
+                <div class="access-group">
+                  <label for="acesso">Nível de acesso:</label>
+                  <select name="acesso" id="acesso" class="block-3">
+                    <option value="Admin">Admin</option>
+                    <option value="Dentista">Dentista</option>
+                    <option value="Secretária">Secretária</option>
+                  </select>
+                </div>
+              </div>
+              <label for="email">E-mail:</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Insira o e-mail "
+                class="block"
+              />
+              <label for="senha">Senha:</label>
+              <input
+                type="text"
+                name="senha"
+                id="senha"
+                placeholder="Insira a senha "
+                class="block"
+              />
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

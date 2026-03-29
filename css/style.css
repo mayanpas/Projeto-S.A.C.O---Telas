@@ -1,0 +1,1370 @@
+/* Cadastro de usuário */
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+
+
+/* Background */
+body {
+    background-color: #EFEFEF;
+}
+
+
+
+/* pexels-sean-whang-25006-804269 1 */
+
+position: absolute;
+visibility: hidden;
+width: 1080px;
+height: 1920px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(pexels-sean-whang-25006-804269.jpg);
+transform: rotate(-90deg);
+
+
+/* < Cadastro de usuário */
+
+position: absolute;
+width: 365px;
+height: 42px;
+left: 284px;
+top: 93px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* ID do usuário: 0009 */
+
+position: absolute;
+width: 212px;
+height: 18px;
+left: 1652px;
+top: 105px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #8F8F8F;
+
+
+
+/* Frame 2 */
+
+position: absolute;
+width: 111px;
+height: 38px;
+left: 649px;
+top: 95px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 111px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+background: #648FEC;
+border-radius: 9px;
+
+
+/* Salvar */
+
+position: absolute;
+width: 56px;
+height: 14px;
+left: 47px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Frame 5 */
+
+position: absolute;
+width: 117px;
+height: 38px;
+left: 781px;
+top: 95px;
+
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 100px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 14 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 117px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #A2A2A2;
+border-radius: 9px;
+
+
+/* Cancelar */
+
+position: absolute;
+width: 75px;
+height: 18px;
+left: 39px;
+top: 10px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+
+/* Frame 11 */
+
+position: absolute;
+width: 1583px;
+height: 444px;
+left: 272px;
+top: 159px;
+
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 1583px;
+height: 444px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 19px;
+
+
+/* Rectangle 35 */
+
+position: absolute;
+width: 1583px;
+height: 444px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 19px;
+
+
+/* Frame 9 */
+
+position: absolute;
+width: 741px;
+height: 288px;
+left: 523px;
+top: 82px;
+
+
+
+/* Inserir */
+
+position: absolute;
+width: 346px;
+height: 89px;
+left: 0px;
+top: 1px;
+
+
+
+/* Nome e sobrenome: */
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Insira o nome */
+
+position: absolute;
+width: 129px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Rectangle 37 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 149px;
+height: 40px;
+left: 0px;
+top: 48px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Insira o nome */
+
+position: absolute;
+width: 129px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Insira o nome */
+
+position: absolute;
+width: 129px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Rectangle 38 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 167px;
+height: 40px;
+left: 0px;
+top: 48px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Insira o nome */
+
+position: absolute;
+width: 129px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Rectangle 39 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 167px;
+height: 40px;
+left: 179px;
+top: 48px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Insira o sobrenome */
+
+position: absolute;
+width: 129px;
+height: 42px;
+left: 194px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Inserir */
+
+position: absolute;
+width: 346px;
+height: 89px;
+left: 0px;
+top: 199px;
+
+
+
+/* Senha */
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Rectangle 35 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 346px;
+height: 40px;
+left: 0px;
+top: 48px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Insira a senha: */
+
+position: absolute;
+width: 231px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Inserir */
+
+position: absolute;
+width: 346px;
+height: 89px;
+left: 0px;
+top: 100px;
+
+
+
+/* E-mail: */
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Rectangle 35 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 346px;
+height: 40px;
+left: 0px;
+top: 48px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Insira o e-mail */
+
+position: absolute;
+width: 231px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Inserir */
+
+position: absolute;
+width: 346px;
+height: 89px;
+left: 395px;
+top: 0px;
+
+
+
+/* Nível de acesso: */
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Rectangle 35 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 346px;
+height: 40px;
+left: 0px;
+top: 48px;
+
+background: #FFFFFF;
+border: 1px solid #A2A2A2;
+border-radius: 6px;
+
+
+/* Admin */
+
+position: absolute;
+width: 231px;
+height: 42px;
+left: 15px;
+top: 47px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 7px;
+left: 92.49%;
+right: 3.76%;
+top: calc(50% - 7px/2 + 24px);
+
+background: #454545;
+transform: rotate(180deg);
+
+
+/* Group 1043 */
+
+position: absolute;
+width: 191px;
+height: 191px;
+left: 132px;
+top: 101px;
+
+
+
+/* Rectangle 13 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 191px;
+height: 191px;
+left: 132px;
+top: 101px;
+
+background: #E5E5E5;
+border-radius: 149.5px;
+
+
+/* Group 1040 */
+
+position: absolute;
+width: 109.68px;
+height: 110.85px;
+left: 169.45px;
+top: 142.2px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.71%;
+right: 84.38%;
+top: 32.03%;
+bottom: 57.35%;
+
+background: #797979;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.7%;
+right: 82.37%;
+top: 44.34%;
+bottom: 43.01%;
+
+background: #797979;
+border-radius: 50px;
+
+
+/* DADOS DO USUÁRIO */
+
+position: absolute;
+width: 327px;
+height: 42px;
+left: 31px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+
+
+/* Frame 6 */
+
+position: absolute;
+width: 170px;
+height: 38px;
+left: 142px;
+top: 329px;
+
+
+
+/* Rectangle 14 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 170px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #A2A2A2;
+border-radius: 9px;
+
+
+/* Vector */
+
+position: absolute;
+height: 14px;
+left: 11.76%;
+right: 80%;
+top: calc(50% - 14px/2);
+
+border: 3px solid #454545;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Adicionar foto */
+
+position: absolute;
+width: 108px;
+height: 14px;
+left: 47px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+
+/* Vector */
+
+position: absolute;
+height: 16px;
+left: 34.84%;
+right: 64.32%;
+top: calc(50% - 16px/2 - 426px);
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 14px;
+left: 41.61%;
+right: 57.66%;
+top: calc(50% - 14px/2 - 426px);
+
+background: #454545;
+border: 1px solid #FFFFFF;
+
+
+/* Sidebar */
+
+position: absolute;
+width: 223px;
+height: 1080px;
+left: 0px;
+top: calc(50% - 1080px/2);
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 223px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: #648FEC;
+
+
+/* Selector */
+
+position: absolute;
+width: 223px;
+height: 47px;
+left: 0px;
+top: 340px;
+
+
+
+/* Rectangle 39 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 6px;
+height: 47px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.52);
+
+
+/* Rectangle 38 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 223px;
+height: 47px;
+left: 0px;
+top: 0px;
+
+background: rgba(218, 218, 218, 0.19);
+
+
+/* Pacientes */
+
+position: absolute;
+width: 98px;
+height: 42px;
+left: 66px;
+top: 79px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Configurações */
+
+position: absolute;
+width: 114px;
+height: 42px;
+left: 66px;
+top: 343px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Consultas */
+
+position: absolute;
+width: 103px;
+height: 26px;
+left: 66px;
+top: 133px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Financeiro */
+
+position: absolute;
+width: 108px;
+height: 42px;
+left: 66px;
+top: 168px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Calendário */
+
+position: absolute;
+width: 103px;
+height: 42px;
+left: 66px;
+top: 211px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* WhatsApp */
+
+position: absolute;
+width: 103px;
+height: 42px;
+left: 66px;
+top: 253px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* OUTROS */
+
+position: absolute;
+width: 44px;
+height: 11px;
+left: 21px;
+top: 316px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 1044 */
+
+position: absolute;
+width: 16.82px;
+height: 17px;
+left: 39px;
+top: 92px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 19.68%;
+right: 77.15%;
+top: 8.52%;
+bottom: 90.81%;
+
+border: 1.5px solid #FFFFFF;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 17.49%;
+right: 74.97%;
+top: 9.29%;
+bottom: 89.91%;
+
+border: 1.5px solid #FFFFFF;
+border-radius: 10px;
+
+
+/* Vector */
+
+position: absolute;
+height: 13px;
+left: 19.28%;
+right: 76.68%;
+top: calc(50% - 13px/2 - 394.5px);
+
+background: #FFFFFF;
+border: 0.3px solid #FFFFFF;
+
+
+/* $ */
+
+position: absolute;
+width: 10px;
+height: 14px;
+left: 43px;
+top: 182px;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 14px;
+left: 18.83%;
+right: 75.34%;
+top: calc(50% - 14px/2 - 308px);
+
+background: #FFFFFF;
+border: 0.78125px solid #FFFFFF;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 180px;
+height: 0px;
+left: 21px;
+top: 304px;
+
+border: 0.5px solid #AEAEAE;
+
+
+/* Vector */
+
+position: absolute;
+height: 17px;
+left: 17.49%;
+right: 75.34%;
+top: calc(50% - 17px/2 - 176.5px);
+
+background: #FFFFFF;
+
+
+/* S.A.C.O SISTEMA ADMINISTRATIVO CLÍNICO-ODONTOLÓGICO */
+
+position: absolute;
+width: 72px;
+height: 26px;
+left: 75px;
+top: 1012px;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+height: 15px;
+left: 18.83%;
+right: 74.44%;
+top: calc(50% - 15px/2 - 266.5px);
+
+background: #FFFFFF;
+border: 0.2px solid #FFFFFF;
+
+
+/* Header */
+
+position: absolute;
+width: 1920px;
+height: 70px;
+left: calc(50% - 1920px/2);
+top: 0px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 1920px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+background: #306DF3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* content */
+
+position: absolute;
+width: 1827px;
+height: 42px;
+left: 37px;
+top: 14px;
+
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 439px;
+height: 41px;
+left: 1123px;
+top: 0px;
+
+
+
+/* Rectangle 11 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 439px;
+height: 41px;
+left: 0px;
+top: 0px;
+
+background: #F2F2F2;
+border: 1px solid #A2A2A2;
+border-radius: 11px;
+
+
+/* Pesquisar pacientes... */
+
+position: absolute;
+width: 167px;
+height: 17px;
+left: 53px;
+top: 12px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #8F8F8F;
+
+
+
+/* Group */
+
+position: absolute;
+height: 16px;
+left: 5.01%;
+right: 91.46%;
+top: calc(50% - 16px/2 + 0.5px);
+
+
+
+/* Group */
+
+position: absolute;
+left: 5.01%;
+right: 91.46%;
+top: 31.71%;
+bottom: 29.27%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 5.01%;
+right: 91.46%;
+top: 31.71%;
+bottom: 29.27%;
+
+background: #8F8F8F;
+
+
+/* LOGO */
+
+position: absolute;
+width: 298px;
+height: 42px;
+left: 68px;
+top: 0px;
+
+
+
+/* NOME DA CLNICA */
+
+position: absolute;
+width: 254px;
+height: 42px;
+left: 44px;
+top: 0px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 34px;
+height: 28px;
+left: 0px;
+top: 7px;
+
+background: #FFFFFF;
+
+
+/* MAYAN.SILVEIRA */
+
+position: absolute;
+width: 135px;
+height: 18px;
+left: 1665px;
+top: 3px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Admin */
+
+position: absolute;
+width: 46px;
+height: 14px;
+left: 1665px;
+top: 21px;
+
+font-family: 'Helvetica Light';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 1042 */
+
+position: absolute;
+width: 34px;
+height: 34px;
+left: 1623px;
+top: 4px;
+
+
+
+/* Rectangle 13 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 34px;
+height: 34px;
+left: 1623px;
+top: 4px;
+
+background: #E5E5E5;
+border-radius: 17px;
+
+
+/* Group 1040 */
+
+position: absolute;
+width: 19.52px;
+height: 19.73px;
+left: 1629.67px;
+top: 11.33px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 89.51%;
+right: 10.04%;
+top: 26.98%;
+bottom: 53.02%;
+
+background: #797979;
+
+
+/* Vector */
+
+position: absolute;
+left: 89.2%;
+right: 9.73%;
+top: 50.15%;
+bottom: 26.04%;
+
+background: #797979;
+border-radius: 50px;
+
+
+/* Vector */
+
+position: absolute;
+height: 7px;
+left: 99.29%;
+right: 0%;
+top: calc(50% - 7px/2 - 0.5px);
+
+background: #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Vector */
+
+position: absolute;
+height: 16px;
+left: 0%;
+right: 98.85%;
+top: calc(50% - 16px/2);
+
+border: 3px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+height: 22px;
+left: 86.7%;
+right: 12.37%;
+top: calc(50% - 22px/2);
+
+background: #FFFFFF;
+border: 2px solid #FFFFFF;
+
+
+/* image 1 */
+
+position: absolute;
+width: 21px;
+height: 1080px;
+left: 1899px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 14px;
+height: 1022px;
+left: 1903px;
+top: 32px;
+
+background: #9F9F9F;
+border-radius: 7px;

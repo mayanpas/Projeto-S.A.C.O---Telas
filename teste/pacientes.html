@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.A.C.O - Pacientes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+      }
+
+      .header-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .table-container {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+
+      .table-toolbar {
+        padding: 15px 25px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fafafa;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f8f9fa;
+        color: #7f8c8d;
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        padding: 15px 25px;
+        border-bottom: 2px solid #eee;
+      }
+
+      td {
+        padding: 15px 25px;
+        border-bottom: 1px solid #eee;
+        font-size: 0.9rem;
+        color: #2c3e50;
+      }
+
+      tr:hover {
+        background-color: #f1f4f8;
+      }
+
+      .patient-name-cell {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 600;
+      }
+
+      .mini-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #e0e0e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+      }
+
+      .action-dots {
+        cursor: pointer;
+        color: #bdc3c7;
+        font-size: 1.2rem;
+      }
+
+      .badge-count {
+        font-size: 0.8rem;
+        color: #7f8c8d;
+      }
+
+      .filter-btn {
+        background: none;
+        border: 1px solid #ddd;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-container">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <span style="font-size: 1.5rem">☰</span>
+          <span style="font-weight: bold; font-size: 0.9rem"
+            >NOME DA CLINICA</span
+          >
+        </div>
+        <ul class="sidebar-menu">
+          <li class="active">👥 Pacientes</li>
+          <li>📅 Consultas</li>
+          <li>💰 Financeiro</li>
+          <li>📆 Calendário</li>
+          <li>💬 WhatsApp</li>
+          <li>⚙️ Configurações</li>
+        </ul>
+        <div class="sidebar-footer">S.A.C.O</div>
+      </aside>
+
+      <main class="main-content">
+        <header>
+          <div class="search-bar">
+            <span>🔍</span>
+            <input type="text" placeholder="Pesquisar pacientes..." />
+          </div>
+          <div class="user-profile">
+            <span style="font-size: 1.2rem">🔔</span>
+            <div class="user-info">
+              <div class="user-name">MAYAN.SILVEIRA</div>
+              <div class="user-role">Admin</div>
+            </div>
+            <div class="avatar"></div>
+          </div>
+        </header>
+
+        <div style="padding: 30px">
+          <div class="page-header">
+            <div class="header-left">
+              <h1 style="font-size: 1.8rem">Pacientes</h1>
+              <button class="btn btn-primary">+ Adicionar novo</button>
+              <button class="btn btn-outline">🗑️ Excluir</button>
+            </div>
+            <div class="header-right">
+              <button class="filter-btn">⏳ Filtrar</button>
+              <span class="badge-count">Total de pacientes: 2000</span>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th style="width: 40px"><input type="checkbox" /></th>
+                  <th>ID</th>
+                  <th>Nome</th>
+                  <th>Data de nascimento</th>
+                  <th>Endereço</th>
+                  <th>Responsável</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0001</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Arthur Cavalcante
+                    </div>
+                  </td>
+                  <td>12/10/1970</td>
+                  <td>Rua das Acácias, 120 - Jardim Ipê</td>
+                  <td>DRA. ALINE RESENDE</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0002</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Beatriz Fagundes
+                    </div>
+                  </td>
+                  <td>12/05/1964</td>
+                  <td>Av. Marechal Deodoro, 450 - Centro</td>
+                  <td>DRA. ALINE RESENDE</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0003</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Caio Montenegro
+                    </div>
+                  </td>
+                  <td>28/08/1981</td>
+                  <td>Alameda das Garças, 22 - Bela Vista</td>
+                  <td>DRA. ALINE RESENDE</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0004</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Diana Schmidt
+                    </div>
+                  </td>
+                  <td>03/01/1970</td>
+                  <td>Travessa do Porto, 89 - Ribeirão</td>
+                  <td>DR. HEITOR CARMINHA</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0005</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Eduardo Bittencourt
+                    </div>
+                  </td>
+                  <td>24/07/2001</td>
+                  <td>Rua Sete de Setembro, 1310 - Liberdade</td>
+                  <td>DR. HEITOR CARMINHA</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>0006</td>
+                  <td>
+                    <div class="patient-name-cell">
+                      <div class="mini-avatar">👤</div>
+                      Fernanda Valente
+                    </div>
+                  </td>
+                  <td>02/03/2005</td>
+                  <td>Av. Beira Mar, 905 - Orla Norte</td>
+                  <td>DRA. ALINE RESENDE</td>
+                  <td class="action-dots">•••</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

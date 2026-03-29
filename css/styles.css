@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+}
+
+/* Background */
+body {
+  background-color: #efefef;
+}
+
+.container {
+  display: flex;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background-color: #306df3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  margin-right: 25px;
+  cursor: pointer;
+}
+header button img {
+  display: inline-block;
+  max-width: 20px;
+}
+header button a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+header button small {
+  display: block;
+  color: #fff;
+  font-weight: lighter;
+}
+
+header form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+header form input {
+  background-color: #f2f2f2;
+  border: #a2a2a2;
+  border-radius: 11px;
+  width: 439px;
+  height: 41px;
+  padding-left: 25px;
+  margin: 0;
+}
+/* LOGO DA CLINICA */
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 34px;
+  height: 28px;
+  margin: 25px;
+}
+
+.logo p {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+/* SIDEBAR */
+nav {
+  background-color: #648fec;
+  width: 223px;
+  min-height: 100vh;
+}
+
+nav ul {
+  padding-top: 25px;
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+}
+
+nav ul img {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+nav ul .other {
+  margin-top: 15px;
+}
+
+hr {
+  border: solid #fff 1px;
+  margin: 15px;
+}
+
+/* MAIN */
+
+main {
+  flex: 2;
+}
+
+.content {
+  margin: 25px;
+  margin-top: 0;
+  border-radius: 19px;
+  padding: 25px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main h1 {
+  padding-left: 35px;
+  padding-top: 25px;
+}
+
+main h3 {
+  position: relative;
+  width: 200px;
+  top: 45px;
+  left: 45px;
+  text-transform: uppercase;
+  font-weight: light;
+}
+
+.pessoa {
+  display: block;
+  align-items: center;
+}
+
+.pessoa img {
+  margin: 50px;
+  margin-bottom: 0;
+}
+
+.pessoa input[type="file"] {
+  display: none;
+}
+
+.pessoa .media-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-top: 30px;
+  width: 170px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 9px;
+  border: solid #a2a2a2 1px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #454545;
+  font-weight: light;
+}
+
+/* MAIN - formulário de cadastro de usuário */
+
+.content .block {
+  display: block;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.name-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.access-group {
+  width: 300px;
+  min-width: 220px;
+}
+
+.access-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.access-group select {
+  width: 100%;
+}
+
+.name-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.name-row .block-2 {
+  flex: 1;
+  width: auto;
+  min-width: 150px;
+}
+
+.content input {
+  width: 346px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  border: solid #a2a2a2 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content label {
+  font-weight: bold;
+}
+
+.content .access-group select {
+  display: block;
+  width: 346px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  border: solid #a2a2a2 1px;
+}
+
+/* .title-header */
+
+.title-header {
+  display: flex;
+  align-items: center;
+  max-width: 100vh;
+}
+
+.title-header input[type="submit"] {
+  width: 111px;
+  height: 38px;
+  margin-left: 35px;
+  margin-top: 25px;
+  background-color: #648fec;
+  border-radius: 9px;
+  border: solid #a2a2a2 1px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title-header input[type="reset"] {
+  width: 111px;
+  height: 38px;
+  margin-left: 15px;
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  border: solid #a2a2a2 1px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #454545;
+}
