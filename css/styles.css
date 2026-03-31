@@ -56,14 +56,29 @@ header form {
   padding-right: 20px;
 }
 
-header form input {
+/* BARRA DE PESQUISA */
+
+header .searchbar{
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
   background-color: #f2f2f2;
+  border: solid #a2a2a2 1px;
+  border-radius: 11px;
+}
+
+header form input {
+  background-color: transparent;
   border: #a2a2a2;
   border-radius: 11px;
-  width: 439px;
+  width: 350px;
   height: 41px;
-  padding-left: 25px;
+  padding-left: 15px;
   margin: 0;
+}
+
+header form input:focus{
+  outline: none;
 }
 /* LOGO DA CLINICA */
 
@@ -114,7 +129,18 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.5s;
 }
+
+nav ul li a:hover{
+  font-size: 1rem;
+}
+
+/* nav ul li a:focus{
+  background-color: #306df3;
+} */
+
 
 nav ul .other {
   margin-top: 15px;
@@ -168,11 +194,17 @@ main h3 {
 
 .pessoa input[type="file"] {
   display: none;
+  cursor: pointer;
 }
 
-.pessoa .media-button {
+.pessoa label{
+  cursor: pointer;
+}
+
+.pessoa button {
   display: inline-flex;
   justify-content: center;
+  gap: 15px;
   align-items: center;
   margin: 50px;
   margin-top: 30px;
@@ -185,6 +217,16 @@ main h3 {
   text-decoration: none;
   color: #454545;
   font-weight: light;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pessoa button:hover{
+  background-color: #f2f2f2;
+}
+
+.pessoa button img {
+  margin: 0;
 }
 
 /* MAIN - formulário de cadastro de usuário */
@@ -266,7 +308,21 @@ main h3 {
   max-width: 100vh;
 }
 
-.title-header input[type="submit"] {
+/* .title-header input[type="submit"]{
+  display: none;
+} */
+
+.title-header .action-buttons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-header .save {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
   width: 111px;
   height: 38px;
   margin-left: 35px;
@@ -277,9 +333,20 @@ main h3 {
   cursor: pointer;
   text-decoration: none;
   color: #ffffff;
+  transition: 0.5s;
 }
 
-.title-header input[type="reset"] {
+.title-header .save:hover{
+  /* width: 115px;
+  height: 42px; */
+  background-color: #5b83d8;
+}
+
+.title-header .cancel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
   width: 111px;
   height: 38px;
   margin-left: 15px;
@@ -290,4 +357,10 @@ main h3 {
   cursor: pointer;
   text-decoration: none;
   color: #454545;
+  transition: 0.5s;
+}
+
+.title-header .cancel:hover{
+  background-color: #ff5555;
+  color: #fff;
 }

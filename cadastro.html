@@ -3,25 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VAI TODO MUNDO SE FODER</title>
+    <title>Projeto S.A.C.O</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- HEADER -->
+
     <div class="header-container">
       <header>
         <div class="logo">
           <img src="img/minilogo.svg" alt="" />
-          <p>Clinigest</p>
+          <p>NOME DA CLÍNICA</p>
         </div>
 
+        <!-- BARRA DE PESQUISA -->
+
         <form>
-          <input
-            type="text"
-            name="searchbar"
-            id="searchbar"
-            placeholder="Pesquisar..."
-          />
+          <div class="searchbar">
+            <img src="img/search.svg" alt="" />
+            <input
+              type="text"
+              name="searchbar"
+              id="searchbar"
+              placeholder="Pesquisar..."
+            />
+          </div>
         </form>
+
+        <!-- BOTÃO DE USUÁRIO -->
 
         <button>
           <img src="img/pessoa.svg" alt="" />
@@ -63,8 +72,16 @@
         <main>
           <div class="title-header">
             <h1>Cadastro de usuário</h1>
-            <input type="submit" form="form" value="Salvar" />
-            <input type="reset" form="form" value="Cancelar" />
+            <div class="action-buttons">
+              <button type="submit" form="form" class="save">
+                <img src="img/Save.svg" alt="" />
+                Salvar
+              </button>
+              <button type="reset" form="form" class="cancel">
+                <img src="img/Vector.svg" alt="" />
+                Cancelar
+              </button>
+            </div>
           </div>
 
           <h3>dados do usuário</h3>
@@ -73,16 +90,25 @@
               <figure>
                 <img src="img/pessoa.svg" alt="" />
               </figure>
-              <input
-                type="file"
-                id="media-upload"
-                name="media"
-                accept="image/*,video/*"
-                hidden
-              />
-              <label for="media-upload" class="media-button"
-                >Adicionar foto</label
-              >
+              <button type="file">
+                <input type="file" id="add-photo" />
+                <img src="img/plus.svg" alt="" />
+                <label for="add-photo">Adicionar foto</label>
+              </button>
+              <!-- <div class="add-photo">
+                <input
+                  type="file"
+                  id="media-upload"
+                  name="media"
+                  accept="image/*,video/*"
+                  hidden
+                />
+                <label for=""></label>
+                <label for="media-upload" class="media-button">
+                  <img src="img/plus.svg" alt="" />
+                  Adicionar foto
+                </label>
+              </div> -->
             </div>
             <form id="form" action="">
               <div class="top-row">
